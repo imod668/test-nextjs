@@ -1,0 +1,58 @@
+[
+	{	
+		"id": "1",
+		"bgImage": "https://ayden.dev/assets/img/card/fg/reincubate-camo.png",
+		"date": "23-08-2021",
+		"title": "Reincubate Camo",
+		"desc": "Use your iPhone as a pro webcam with powerful adjustments for Zoom, Meet, and more. Leave your webcam in the dust with hi-res streaming direct from its amazing cameras.",
+		"link_url": "https://nextjs.org"
+	},
+	{	
+		"id": "2",
+		"bgImage": "https://ayden.dev/assets/img/covers/shortlook.png",
+		"date": "23-08-2021",
+		"title": "ShortLook",
+		"desc": "ShortLook displays on your locked iPhone as you receive a notification using it's beautiful full screen design.",
+		"link_url": "https://nextjs.org"
+	},
+	{
+		"id": "3",
+		"bgImage": "https://cdn.chariz.cloud/sileo-banner/mitsuha-forever.jpg",
+		"date": "23-08-2021",
+		"title": "Mitsuha Forever",
+		"desc": " Mitsuha also allows for visualizations below the lockscreen and homescreen.",
+		"link_url": "https://chariz.com/get/mitsuha-forever"
+	},
+	{
+		"id": "4",
+		"bgImage": "https://cdn.chariz.cloud/sileo-banner/orion.jpg",
+		"date": "23-08-2021",
+		"title": "Orion",
+		"desc": "Orion combines hundreds of features in one place with highly customizable preferences, built to be very efficient and battery friendly.",
+		"link_url": "https://chariz.com/buy/orion"
+	},
+	{
+		"id": "5",
+		"bgImage": "https://cdn.chariz.cloud/sileo-banner/weatherground.jpg",
+		"date": "23-08-2021",
+		"title": "WeatherGround",
+		"desc": "WeatherGround is a tweak that brings weather to your fingertips!, Live weather background as wallpaper and Live weather effects on top of your current wallpaper.",
+		"link_url": "https://chariz.com/get/weatherground"
+	},
+	{
+		"id": "6",
+		"bgImage": "https://cdn.chariz.cloud/sileo-banner/rofi.jpg",
+		"date": "23-08-2021",
+		"title": "Rofi",
+		"desc": "Rofi is an app launcher tweak. It’s simple, easy to use, and accessible from everywhere!.",
+		"link_url": "https://chariz.com/get/rofi"
+	},
+	{
+		"id": "7",
+		"bgImage": "https://cdn.chariz.cloud/sileo-banner/dayn.jpg",
+		"date": "23-08-2021",
+		"title": "Dayn",
+		"desc": "Dayn provides a completely new and more modern looking notification banner experience, while adding many new features in the process.",
+		"link_url": "https://chariz.com/buy/dayn"
+	}
+]
