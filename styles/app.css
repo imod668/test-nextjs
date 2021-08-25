@@ -808,3 +808,91 @@ a:hover {
     min-height: calc(100vh - 100px);
     transform: translate(-50%, -50%);
 }
+
+/* appcard */
+.app-card {
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 3px 6px -2px rgb(0 0 0 / 6%), 0 0 20px -2px rgb(0 0 0 / 3%);
+    border-radius: 12px;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+.content-block {
+    padding: 15px;
+    color: #6d6d72;
+    border-bottom: 1px solid #dcdcdc;
+}
+.list-block {
+    font-size: 17px;
+    width: 100%;
+}
+.list-block .item-content {
+    padding-left: 15px;
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-block .item-media {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+.list-block .item-inner {
+    width: 100%;
+    min-height: 44px;
+    overflow: hidden;
+    display: block;
+    padding: 10px 15px 9px 0;;
+    margin-left: 15px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.item-media .app-icon {
+    width: 44px;
+    border-radius: 11px;
+    height: 44px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.item-title-row {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.list-block .item-title {
+    flex-shrink: 1;
+    min-width: 0;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-weight: 500;
+}
+.install {
+    border: 1px solid #007aff;
+    text-decoration: none;
+    border-radius: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    background: #007AFF;
+    color: #fff;
+    font-weight: bold;
+    width: 50px;
+}
+.item-subtitle {
+    font-size: 14px;
+    white-space: nowrap;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
