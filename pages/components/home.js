@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Toslug from '../chitiet/toslug';
 import DataHome from '../data/home.json';
 
 function Home () {
