@@ -1,6 +1,6 @@
 [
 	{	
-		"id": "1",
+		"slug": "1",
 		"bgImage": "https://ayden.dev/assets/img/card/fg/reincubate-camo.png",
 		"date": "23-08-2021",
 		"title": "Reincubate Camo",
@@ -8,7 +8,7 @@
 		"link_url": "https://nextjs.org"
 	},
 	{	
-		"id": "2",
+		"slug": "2",
 		"bgImage": "https://ayden.dev/assets/img/covers/shortlook.png",
 		"date": "23-08-2021",
 		"title": "ShortLook",
@@ -16,7 +16,7 @@
 		"link_url": "https://nextjs.org"
 	},
 	{
-		"id": "3",
+		"slug": "3",
 		"bgImage": "https://cdn.chariz.cloud/sileo-banner/mitsuha-forever.jpg",
 		"date": "23-08-2021",
 		"title": "Mitsuha Forever",
@@ -24,7 +24,7 @@
 		"link_url": "https://chariz.com/get/mitsuha-forever"
 	},
 	{
-		"id": "4",
+		"slug": "4",
 		"bgImage": "https://cdn.chariz.cloud/sileo-banner/orion.jpg",
 		"date": "23-08-2021",
 		"title": "Orion",
@@ -32,7 +32,7 @@
 		"link_url": "https://chariz.com/buy/orion"
 	},
 	{
-		"id": "5",
+		"slug": "5",
 		"bgImage": "https://cdn.chariz.cloud/sileo-banner/weatherground.jpg",
 		"date": "23-08-2021",
 		"title": "WeatherGround",
@@ -40,7 +40,7 @@
 		"link_url": "https://chariz.com/get/weatherground"
 	},
 	{
-		"id": "6",
+		"slug": "6",
 		"bgImage": "https://cdn.chariz.cloud/sileo-banner/rofi.jpg",
 		"date": "23-08-2021",
 		"title": "Rofi",
@@ -48,11 +48,11 @@
 		"link_url": "https://chariz.com/get/rofi"
 	},
 	{
-		"id": "7",
+		"slug": "7",
 		"bgImage": "https://cdn.chariz.cloud/sileo-banner/dayn.jpg",
 		"date": "23-08-2021",
 		"title": "Dayn",
-		"desc": "Dayn provides a completely new and more modern looking notification banner experience, while adding many new features in the process.",
+		"desc": "Dayn provsluges a completely new and more modern looking notification banner experience, while adding many new features in the process.",
 		"link_url": "https://chariz.com/buy/dayn"
 	}
 ]

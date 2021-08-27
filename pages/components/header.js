@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const header = () => {
+function Header () {
     return (
         <div id="cover">
             <div className="front-cover">
@@ -27,4 +27,4 @@ const header = () => {
     );
 }
 
-export default header;
+export default Header;

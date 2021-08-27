@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Toslug from '../chitiet/toslug';
 import DataHome from '../data/home.json';
 
-export default function Home(){
-	
+function Home () {
+
 	return (
 		<div className="projects">
 		<Head><title>Home Page</title></Head>
@@ -20,7 +21,7 @@ export default function Home(){
 					</div>
 					<p>{item.desc}</p>
 					<div className="btns">
-						<Link href="/chitiet/[id]/[name]" as={`/chitiet/${item.id}/${item.title}`}>
+						<Link href={`/chitiet/${item.slug}`}>
 							<a className="navbtn">Chi tiết</a>
 						</Link>
 					</div>
@@ -30,3 +31,4 @@ export default function Home(){
 		</div>
 	)
 }
+export default Home;

@@ -4,14 +4,13 @@ import Tabs from './tabs';
 import Footer from './footer';
 
 
-function Layout(props){
+function Layout ({children}) {
+	
 	return (
 	  <>
 		<Header />
 		<Tabs />
-		<div id="content">
-		  {props.children}
-		</div>
+		<div id="content">{children}</div>
 		<Footer />
 	  </>
 	);

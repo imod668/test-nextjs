@@ -275,7 +275,12 @@ a:hover {
     border: 1px solid var(--button-color);
     box-sizing: border-box;
 }
-
+.navbtn.back{
+	position: fixed;
+    bottom: 90px;
+    right: 0px;
+    z-index: 10;
+}
 .projects-mini {
     display: grid;
     grid-column-gap: 30px;

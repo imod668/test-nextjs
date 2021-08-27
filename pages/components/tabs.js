@@ -2,7 +2,7 @@ import React,{ useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-const Tabs = () => {
+function Tabs () {
 	const router = useRouter();
 	const [scrolled, setScrolled] = useState(false);
     useEffect(() => {
@@ -14,7 +14,7 @@ const Tabs = () => {
             setScrolled(false);
             }
         };
-
+		return () =>  setScrolled; //cleanup scroll tabs
     }, []);
 	
     return (
